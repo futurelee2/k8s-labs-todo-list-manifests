@@ -14,7 +14,7 @@ spec:
     helm:
       parameters:
         - name: 'backend.image.tag'
-          value: '346b40b3df18dfed478e133b6b72ac713be598dc' # CI 파이프라인이 바로 이 'value'를 업데이트할 것임
+          value: '78eea1332c7afd24c9dae764aa169fa8fb14571f' # CI 파이프라인이 바로 이 'value'를 업데이트할 것임
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: 'default' # 배포 대상 네임스페이스
